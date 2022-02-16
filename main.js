@@ -17,7 +17,7 @@ Webcam.set({
     }
     console.log("ML5 version:",ml5.version);
     //Enter your Teachable Machine Link below in this format: YOUR-LINK/model.json     If you need more detailed instructions, please check the Github repository.
-    classifier=ml5.imageClassifier("link/model.json",modelloaded);
+    classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/8TT8zWo0Y/model.json",modelloaded);
     function modelloaded(){
     console.log("Model Loaded")
     }
